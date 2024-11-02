@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Algorithm Visualizer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sorting Algorithm Visualizer</h1>
+        <div class="controls">
+            <input type="text" id="array-input" placeholder="Enter up to 8 numbers separated by commas">
+            <select id="algorithm-select">
+                <option value="bubble">Bubble Sort</option>
+                <option value="insertion">Insertion Sort</option>
+                <option value="selection">Selection Sort</option>
+            </select>
+            <button onclick="startSorting()">Start Sorting</button>
+        </div>
+        <div class="array-container" id="array-container"></div>
+        <div class="explanation-title">Step-by-Step Explanation</div>
+        <div class="explanation" id="explanation"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
